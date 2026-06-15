@@ -1,1 +1,95 @@
 <!doctype html>
+<style>
+    nav ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 10rem;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+            font-weight: 10000;
+            padding: 0.5rem 1rem;
+            border-radius: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover{
+            background-color: rgba(24, 23, 23, 0.644);
+            transform:translateY(-1px);
+        }
+</style>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Layout and Positioning Fundamentals</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Layout and Positioning Fundamentals</h1>
+        <h2>Understanding the display property</h2>
+        <p>The display property is used to define how an element is displayed on the page.</p>
+        <p>Block elements - full width new line</p>
+        <code>display: block;</code>
+        <p>Inline elements - only as wide as the content</p>
+        <code>display: inline;</code>
+        <p>Inline-block elements - only as wide as the content but can have width and height</p>
+        <code>display: inline-block;</code>
+        <p>hide elements - the element will not be displayed on the page</p>
+        <code>display: none;</code>
+
+        <hr />
+
+        <h2>Block vs Inline vs Inline-block</h2>
+        <img src="images/Block.png" alt="Block" />
+        <img src="images/Inline.png" alt="Inline" />
+        <img src="images/Inlineblock.png" alt="Inline-block" />
+        <h3>Block Elements</h3>
+        <ul>
+            <li>Take the fully available width of the parent element</li>
+            <li>Always start on a new line</li>
+            <li>Can have width, height, margin, and padding</li>
+            <li>Examples: div, p, h1-h6, ul, ol, li, form</li>
+        </ul>
+        <h3>Inline Elements</h3>
+        <ul>
+            <li>Only take up as much width as needed</li>
+            <li>Do not start on a new line</li>
+            <li>Cannot have width, height, margin, or padding</li>
+            <li>Examples: span, a, img</li>
+        </ul>
+        <h3>Inline-Block Elements</h3>
+        <ul>
+            <li>Only take up as much width as needed</li>
+            <li>Do not start on a new line</li>
+            <li>Can have width, height, margin, and padding</li>
+            <li>Examples: button, input</li>
+        </ul>
+
+        <hr />
+
+        <h2>Navigation styling with Display</h2>
+        <P>to make a navigation bar you use nav</P>
+        <p> to style the nav bar you use display: flex; to make the list items display in a row</p>
+        <p>to make the list items display in a row you use justify-content: center;</p>
+        <p>to remove the bullet points you use list-style: none;</p>
+        <p>to add space between the list items you use gap: 2rem;</p>
+        <p>to style the links you use text-decoration: none; to remove the underline</p>
+        <p>to style the links you use color: black; to change the color of the text</p>
+        <p>to style the links you use padding: 0.5rem 1rem; to add space around the text</p>
+        <p>to style the links you use border-radius: 1px; to round the corners of the links</p>
+        <p>to style the links you use transition: background-color 0.3s ease; to make the background color change smoothly</p>
+
+
+
+
+    </body>
+</html>
