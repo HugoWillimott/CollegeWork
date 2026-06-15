@@ -1,76 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>CSS fundamentals and advanced styling</title>
-    </head>
-    <body>
-        <h1>The ways to style HTML</h1>
-        <h2>Inline CSS</h2>
-        <p style="color: blue; font-size:16px;"> to write styalised you need to put style="colour: blue; font-size:16px;" in with the p</p>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS fundamentals and advanced styling</title>
+  </head>
+  <body>
+    <h1>The ways to style HTML</h1>
+    <h2>Inline CSS</h2>
+    <p style="color: blue; font-size: 16px">
+      to write styalised you need to put style="colour: blue; font-size:16px;"
+      in with the p
+    </p>
 
-        <hr>
-        
-        <h2>Internal CSS</h2>
-        <p>styles defined within a <"style"> taginside the <"head"> seaction</p>
+    <hr />
 
-        <hr>
+    <h2>Internal CSS</h2>
+    <p>styles defined within a <"style"> taginside the <"head"> seaction</p>
 
-        <h2>External CSS</h2>
-        <p>styles written in a separate CSS file and linked to the HTML</p>
+    <hr />
 
-        <hr>
-        
-        <h1>Understanding CSS seletors</h1>
-        <h2>Element selector</h2>
-        <p>Targets all selectors of a different type p { </p>
+    <h2>External CSS</h2>
+    <p>styles written in a separate CSS file and linked to the HTML</p>
 
-        <hr>
+    <hr />
 
-        <h2>class selectors</h2>
-        <p>targets a single element with a specific ID</p>
+    <h1>Understanding CSS seletors</h1>
+    <h2>Element selector</h2>
+    <p>Targets all selectors of a different type p {</p>
 
-        <hr>
+    <hr />
 
-        <h1>the CSS box model</h1>
-        <p>evert HTML element is a rectangle with 4 components</p>
-        <ul>
-            <li>contnet - the actual text or image</li>
-            <li>padding - a space between the content and the border</li>
-            <li>border - the line around the padding</li>
-            <li>margin - space outside the border</li>
-        </ul>
-        <img src="image/image.png">
-        
-        <hr>
+    <h2>class selectors</h2>
+    <p>targets a single element with a specific ID</p>
 
-        <h2>calculating box dimentions</h2>
-        <p>when you set the width or height or an element you are defining the dimentions of the <strong>content box</strong></p>
-        <p>padding, borders and margin are then added on top giving the total space of the element ocupied the formulas are:</p>
-        <p>Total Width = Width + Left/Right Padding + Left/Right border + Left/Right Margin</p>
-        <p>Total Height = Width + Left/Right Padding + Left/Right border + Left/Right Margin</p>
+    <hr />
 
-        <hr>
+    <h1>the CSS box model</h1>
+    <p>evert HTML element is a rectangle with 4 components</p>
+    <ul>
+      <li>contnet - the actual text or image</li>
+      <li>padding - a space between the content and the border</li>
+      <li>border - the line around the padding</li>
+      <li>margin - space outside the border</li>
+    </ul>
+    <img src="image/image.png" />
 
-        <h1>Colour System typogrophy</h1>
-        <h2>ways CSS helps define colours</h2>
-        <ul>
-            <li>color = red</li>
-            <li>color: ~ff0000</li>
-            <li>color: rgb(255, 0, 0.5</li>
-            <li>color: rgba(255, 0, 9, 0.5</li>
-            <li>color: hsl(0, 100%, 50%</li>
-        </ul>
-    
-        <hr>
+    <hr />
 
-        <h2>Background properties</h2>
-        <p>.advanced background{</p>
-        <p>~~background-colour: #f0f0f0</p>
-        <p>~~background-image: url('pattern.png')</p>
-        <p>~~background-repeat: no-repeat;</p>
-        <p>~~background-position: center top;</p>
-        <p>~~background-size: cover</p>
-        <p>}</p>
-    </body>
+    <h2>calculating box dimentions</h2>
+    <p>
+      when you set the width or height or an element you are defining the
+      dimentions of the <strong>content box</strong>
+    </p>
+    <p>
+      padding, borders and margin are then added on top giving the total space
+      of the element ocupied the formulas are:
+    </p>
+    <p>
+      Total Width = Width + Left/Right Padding + Left/Right border + Left/Right
+      Margin
+    </p>
+    <p>
+      Total Height = Width + Left/Right Padding + Left/Right border + Left/Right
+      Margin
+    </p>
+
+    <hr />
+
+    <h1>Colour System typogrophy</h1>
+    <h2>ways CSS helps define colours</h2>
+    <ul>
+      <li>color = red</li>
+      <li>color: ~ff0000</li>
+      <li>color: rgb(255, 0, 0.5</li>
+      <li>color: rgba(255, 0, 9, 0.5</li>
+      <li>color: hsl(0, 100%, 50%</li>
+    </ul>
+
+    <hr />
+
+    <h2>Background properties</h2>
+    <p>.advanced background{</p>
+    <p>~~background-colour: #f0f0f0</p>
+    <p>~~background-image: url('pattern.png')</p>
+    <p>~~background-repeat: no-repeat;</p>
+    <p>~~background-position: center top;</p>
+    <p>~~background-size: cover</p>
+    <p>}</p>
+  </body>
 </html>
