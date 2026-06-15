@@ -7,7 +7,7 @@
 body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    colour: #2A3442;
+    color: #2f38440c;
     background: #f7f8fa;
 }
 
@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav a {
-    colour: white;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -78,62 +78,62 @@ section{
     width: 220px;
     border-radius: 10px;
     flex-shrink: 0;
-    }
+}
 
-    .about-text{
+.about-text{
     flex: 1;
     min-width: 280px
-    }
+}
 
-    about-text p {
-    colour: #4a5a70;
+about-text p {
+    color: #4a5a70;
     margin-bottom: 1rem;
-    }
+}
 
-    .gallery {
+.gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    }
+}
 
-    .gallery img{
+.gallery img{
     flex: 1 1 calc(33.333% - 0.67rem);
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(20, 35, 60, 0.10);
     transition: transform 0.3 ease, box-shadow 0.3 ease;
-    }
+}
 
-    .gallery img:hover{
+.gallery img:hover{
     transform: scale(1.02);
     box-shadow: 0 6px 16px rgba(20, 35, 60, 0.16);
-    }
+}
 
-    .fetured {
+.fetured {
     flex-basis: calc(66.666% - 0.5rem);
-    }
+}
 
 .contact p {
-    colour: #4a5a70;
+    color: #4a5a70;
     margin-bottom: 0.5rem;
 }
 
 .contact a{
-    colour: #1f3556;
+    color: #1f3556;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: #b07d2b;
     text-underline-offset: 3px;
 } 
 
-.contact a: hover {
+.contact a hover {
     color: #8a6118;
 }
 
 footer {
     background: #14233c;
-    colour: #c9d1dc;
+    color: #c9d1dc;
     text-align: center;
     padding: 2rem;
 }

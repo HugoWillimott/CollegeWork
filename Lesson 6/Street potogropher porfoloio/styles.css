@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #2A3442;
+    background: #f7f8fa;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h2{
+    font-family: 'sora', sans-serif;
+    color: #14233c;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #b07d2b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem, 10rem;
+    background:linear-gradient(135deg, #14233c, #1f3556);
+}
+
+.logo {
+    font-family: 'sora', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 10rem;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 1;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #1472ff
+
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+.about {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 220px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.about-text{
+    flex: 1;
+    min-width: 280px
+}
+
+about-text p {
+    color: #4a5a70;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery img{
+    flex: 1 1 calc(33.333% - 0.67rem);
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(20, 35, 60, 0.10);
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.gallery img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(20, 35, 60, 0.16);
+}
+
+.fetured {
+    flex-basis: calc(66.666% - 0.5rem);
+}
+
+.contact p {
+    color: #4a5a70;
+    margin-bottom: 0.5rem;
+}
+
+.contact a{
+    color: #1f3556;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #b07d2b;
+    text-underline-offset: 3px;
+} 
+
+.contact a hover {
+    color: #8a6118;
+}
+
+footer {
+    background: #14233c;
+    color: #c9d1dc;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    header { flex-direction: column; gap: 1rem; }
+    .gallery img,
+    .fetured {flex-basis: 100%;}
+}
+
