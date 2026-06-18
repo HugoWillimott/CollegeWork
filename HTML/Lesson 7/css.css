@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -26,7 +27,7 @@ header {
     font-family: 'sora', sans-serif;
     color: #ff5678;
     font-size: 2rem;
-    margin: 2rem;
+    
 }
 
 nav ul {
@@ -55,6 +56,7 @@ nav a:hover {
     padding-bottom: .5rem;
     color: white;
     background-color:#ff5678;
+    text-decoration: none;
 }
 
 .main { 
@@ -80,11 +82,14 @@ h2 {
 }
 
 .say-hi-social {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem; 
+    max-width: 12rem;
+    text
+
 }
 
 .row {
@@ -117,13 +122,19 @@ h2 {
 
 .work-title {
     display: flex;
+    justify-content: space-between;
 }
 
-.link {
-    justify-content: center;
-    margin-top: 0px;
-    margin-left: 250px;
+.link-linkden {
+    margin-top: .5rem;
     color: gray;
+    text-decoration: none;   
+}
+
+.links {
+    margin-top: .2rem;
+    color: #000000;
+    text-decoration: none;   
 }
 
 .grid {
@@ -190,4 +201,28 @@ h2 {
     max-width: 70px;
     max-height: 70px;
     margin-top: 30px;
+}
+
+.lets-connect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left1 {
+    display: flex;
+    margin-right: 10rem;
+    gap: 1rem;
+}
+
+footer {
+    display: flex;
+    background-color: #ff5678;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.copy {
+   margin-bottom: 1rem; 
+   font-size: 1.2rem;
+   color: white;
 }
